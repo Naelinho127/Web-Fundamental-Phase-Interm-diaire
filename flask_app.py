@@ -31,18 +31,6 @@ def presentation():
 @app.get("/loisir")
 def loisir():
     return "J'aime le tir a l'arc ainsi que le dessin et les sciences"
-@app.get("/presentation")
-def presentation():
-    return """
-    <h1>Nael Ferreira </h1>
-    <p>Je suis étudiante en <strong>premiere année d'informatique</strong>.</p>
-    <h2>Ce que j'aime</h2>
-    <ul>
-        <li>Les jeux vidéo</li>
-        <li>La musique</li>
-        <li>Le code (bientôt !)</li>
-    </ul>
-    """
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
 #  sur votre propre ordinateur (python flask_app.py)
